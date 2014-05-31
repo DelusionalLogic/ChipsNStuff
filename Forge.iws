@@ -9,9 +9,9 @@
     <file path="/a.dummy" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1400683612678" ignored="false" />
     <file path="/Cable.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1399732498945" ignored="false" />
     <file path="/fragment.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401481093933" ignored="false" />
-    <file path="/ClientProxy.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401463469326" ignored="false" />
+    <file path="/ClientProxy.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401560921762" ignored="false" />
     <file path="/PowerMod.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1399744007043" ignored="false" />
-    <file path="/CommonProxy.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401463461118" ignored="false" />
+    <file path="/CommonProxy.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401560133199" ignored="false" />
     <file path="/BCable.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1399744856659" ignored="false" />
     <file path="/TECable.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1399743684761" ignored="false" />
     <file path="/GuiHandler.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1400016391675" ignored="false" />
@@ -25,7 +25,7 @@
     <file path="/PComponent.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1400808181421" ignored="false" />
     <file path="/NComponent.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1400808186299" ignored="false" />
     <file path="/TEChip.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401481549246" ignored="false" />
-    <file path="/BChip.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401477292470" ignored="false" />
+    <file path="/BChip.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401564678721" ignored="false" />
     <file path="$PROJECT_DIR$/eclipse/logs/latest.log" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1399829670286" ignored="false" />
     <file path="/GuiImageButton.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1399831272333" ignored="false" />
     <file path="/GuiWafer.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1399830190642" ignored="false" />
@@ -50,7 +50,7 @@
     <file path="/Direction.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1400449020947" ignored="false" />
     <file path="/NPNComponent.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1400807174037" ignored="false" />
     <file path="/TESRChip.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401388941599" ignored="false" />
-    <file path="/TESRGate.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401449060891" ignored="false" />
+    <file path="/TESRGate.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401561049607" ignored="false" />
     <file path="/PacketHandler.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401454600452" ignored="false" />
     <file path="/ServerProxy.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401481067067" ignored="false" />
     <file path="$PROJECT_DIR$/../ForgeNew/src/main/java/dk/slashwin/chipsnstuff/block/BChip.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401486155532" ignored="false" />
@@ -60,6 +60,7 @@
     <file path="$PROJECT_DIR$/../ForgeNew/src/main/java/dk/slashwin/chipsnstuff/network/PacketHandler.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401486155532" ignored="false" />
     <file path="$PROJECT_DIR$/../ForgeNew/src/main/java/dk/slashwin/chipsnstuff/network/WaferPlaceViaPacket.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401486155532" ignored="false" />
     <file path="$PROJECT_DIR$/../ForgeNew/src/main/java/dk/slashwin/chipsnstuff/network/WaferPlacePacket.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401486155532" ignored="false" />
+    <file path="/ThePlaceWithTheBlocks.java" changelist="47960126-848f-4990-a2e4-1c4cace628c6" time="1401560125012" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,15 +138,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PadModeChangePacket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/PadModeChangePacket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="41" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="WaferRemovePacket.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/WaferRemovePacket.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -155,10 +147,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PadPowerChangePacket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/PadPowerChangePacket.java">
+      <file leaf-file-name="BChip.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/block/BChip.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="41" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0">
+            <state line="22" column="23" selection-start="775" selection-end="775" vertical-scroll-proportion="0.2647059">
               <folding />
             </state>
           </provider>
@@ -176,7 +168,16 @@
       <file leaf-file-name="CommonProxy.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/CommonProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="36" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+            <state line="14" column="57" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThePlaceWithTheBlocks.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ThePlaceWithTheBlocks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="44" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -194,35 +195,28 @@
       <file leaf-file-name="ClientProxy.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ClientProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="203" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+            <state line="18" column="83" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PacketHandler.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PacketHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/PacketHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="452" selection-end="452" vertical-scroll-proportion="0.30520648">
+            <state line="15" column="64" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WaferPlaceViaPacket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/WaferPlaceViaPacket.java">
+      <file leaf-file-name="TESRGate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/renderer/TESRGate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="41" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WaferPlacePacket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/WaferPlacePacket.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="41" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="19" column="55" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1280#1305#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,12 +231,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/renderer/TESRChip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/block/BChip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/renderer/TESRGate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/gui/GChip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/CommonProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ChipsnStuff.java" />
         <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/PacketHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ServerProxy.java" />
@@ -253,6 +241,12 @@
         <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/PadModeChangePacket.java" />
         <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/WaferRemovePacket.java" />
         <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/TEPacket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/renderer/TESRChip.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ThePlaceWithTheBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/CommonProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/renderer/TESRGate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ClientProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/block/BChip.java" />
       </list>
     </option>
   </component>
@@ -297,11 +291,13 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -311,21 +307,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.2-10.12.1.1074.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -336,14 +318,10 @@
               <option name="myItemId" value="forgeSrc-1.7.2-10.12.1.1074.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -358,14 +336,10 @@
               <option name="myItemId" value="net" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -384,70 +358,10 @@
               <option name="myItemId" value="minecraft" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tileentity" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.2-10.12.1.1074.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.2-10.12.1.1074.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="renderer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -473,7 +387,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -483,21 +397,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -515,7 +415,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -541,7 +441,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -565,43 +465,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tileentity" />
+              <option name="myItemId" value="renderer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chipsnstuff" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Forge" />
+              <option name="myItemId" value="forge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -629,25 +499,53 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="forge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Forge" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chipsnstuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="recentsLimit" value="5" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForgeNew/ForgeNew.ipr" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ForgeNew/ForgeNew.ipr" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -790,12 +688,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -810,6 +707,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -879,62 +777,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.1.1074/forgeSrc-1.7.2-10.12.1.1074-sources.jar!/cpw/mods/fml/common/network/simpleimpl/MessageContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="323" selection-end="323" vertical-scroll-proportion="0.3307393">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.1.1074/forgeSrc-1.7.2-10.12.1.1074-sources.jar!/net/minecraft/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="385" column="0" selection-start="14847" selection-end="14847" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/circuit/Wafer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/gui/GChip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="107" selection-start="4592" selection-end="4592" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ServerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="48" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/tileentity/TEChip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="44" selection-start="2621" selection-end="2621" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/WaferPlaceViaPacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="41" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/WaferPlacePacket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="41" selection-start="1373" selection-end="1373" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/PadPowerChangePacket.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="41" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0">
@@ -949,23 +791,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/WaferRemovePacket.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.1.1074/forgeSrc-1.7.2-10.12.1.1074-sources.jar!/net/minecraftforge/client/IItemRenderer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="41" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
+        <state line="73" column="49" selection-start="2891" selection-end="2891" vertical-scroll-proportion="0.5475372">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/TEPacket.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/renderer/TESRChip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="40" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
+        <state line="25" column="25" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/CommonProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/PacketHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+        <state line="15" column="64" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -977,16 +819,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ClientProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ThePlaceWithTheBlocks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="203" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+        <state line="6" column="44" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/PacketHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/CommonProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="452" selection-end="452" vertical-scroll-proportion="0.30520648">
+        <state line="14" column="57" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/TEPacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="40" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/gui/GChip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="55" selection-start="6463" selection-end="6463" vertical-scroll-proportion="0.32352942">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/renderer/TESRGate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="55" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1280#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.1.1074/forgeSrc-1.7.2-10.12.1.1074-sources.jar!/net/minecraft/block/BlockRedstoneRepeater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="370" selection-end="370" vertical-scroll-proportion="0.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.1.1074/forgeSrc-1.7.2-10.12.1.1074-sources.jar!/net/minecraft/block/BlockRedstoneDiode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="358" column="39" selection-start="15274" selection-end="15274" vertical-scroll-proportion="0.7823009">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="83" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/network/WaferRemovePacket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="41" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dk/slashwin/chipsnstuff/block/BChip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="23" selection-start="775" selection-end="775" vertical-scroll-proportion="0.2647059">
           <folding />
         </state>
       </provider>

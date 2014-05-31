@@ -12,7 +12,7 @@ public abstract class CommonProxy
 {
 	public void registerBlocks()
 	{
-		GameRegistry.registerBlock(new BChip(), "chip");
+		GameRegistry.registerBlock(ThePlaceWithTheBlocks.bChip, "chip");
 
 		GameRegistry.registerTileEntity(TEChip.class, "chipTE");
 

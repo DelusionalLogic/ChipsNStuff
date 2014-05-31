@@ -8,7 +8,10 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.AdvancedModelLoader;
 import net.minecraftforge.client.model.IModelCustom;
+import net.minecraftforge.common.util.ForgeDirection;
 import org.lwjgl.opengl.GL11;
+
+import java.util.EnumMap;
 
 public class TESRChip extends TESRGate
 {
@@ -16,9 +19,9 @@ public class TESRChip extends TESRGate
 	ResourceLocation texture = new ResourceLocation("chipsnstuff:textures/models/chip.png");
 
 	@Override
-	public void renderTileEntityAt(TileEntity te, double x, double y, double z, float f)
+	protected void render(double x, double y, double z, EnumMap<ForgeDirection, Boolean> powerMap)
 	{
-		super.renderTileEntityAt(te, x, y, z, f);
+		super.render(x, y, z, powerMap);
 		GL11.glPushMatrix();
 		GL11.glTranslated(x + 0.5, y, z + 0.5);
 		Minecraft.getMinecraft().getTextureManager().bindTexture(texture);

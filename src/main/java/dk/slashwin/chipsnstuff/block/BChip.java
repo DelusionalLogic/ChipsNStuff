@@ -21,7 +21,7 @@ public class BChip extends Block implements ITileEntityProvider
 	{
 		super(Material.iron);
 		setBlockName("chip");
-		setCreativeTab(CreativeTabs.tabBlock);
+		setCreativeTab(CreativeTabs.tabRedstone);
 		this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 0.125F, 1.0F);
 	}
 

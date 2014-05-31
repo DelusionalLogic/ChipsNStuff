@@ -1,15 +1,21 @@
 package dk.slashwin.chipsnstuff.renderer;
 
+import dk.slashwin.chipsnstuff.ThePlaceWithTheBlocks;
 import dk.slashwin.chipsnstuff.tileentity.TEChip;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ResourceLocation;
+import net.minecraftforge.client.IItemRenderer;
 import net.minecraftforge.client.model.AdvancedModelLoader;
 import net.minecraftforge.client.model.IModelCustom;
 import net.minecraftforge.common.util.ForgeDirection;
 import org.lwjgl.opengl.GL11;
+
+import java.util.EnumMap;
 
 public class TESRGate extends TileEntitySpecialRenderer
 {
@@ -20,27 +26,36 @@ public class TESRGate extends TileEntitySpecialRenderer
 	@Override
 	public void renderTileEntityAt(TileEntity te, double x, double y, double z, float f)
 	{
+		if(te instanceof TEChip)
+		{
+			EnumMap<ForgeDirection, Boolean> powerMap = new EnumMap<ForgeDirection, Boolean>(ForgeDirection.class);
+			for(ForgeDirection dir : ForgeDirection.VALID_DIRECTIONS)
+				powerMap.put(dir, ((TEChip) te).isPowered(dir));
+			render(x, y, z, powerMap);
+		}
+	}
+
+	protected void render(double x, double y, double z, EnumMap<ForgeDirection, Boolean> powerMap)
+	{
 		GL11.glPushMatrix();
 		GL11.glTranslated(x + 0.5, y, z + 0.5);
 		Minecraft.getMinecraft().getTextureManager().bindTexture(texture);
 		model.renderAll();
-		Minecraft.getMinecraft().getTextureManager().bindTexture(redTex);
 
-		if(te instanceof TEChip)
+		Minecraft.getMinecraft().getTextureManager().bindTexture(redTex);
+		GL11.glDisable(GL11.GL_LIGHTING);
+
+		Tessellator tess = Tessellator.instance;
+		tess.setBrightness(16);
+		tess.setColorOpaque_F(1f, 1f, 1f);
+
+		ForgeDirection[] dirs = new ForgeDirection[]{ForgeDirection.NORTH, ForgeDirection.EAST, ForgeDirection.SOUTH, ForgeDirection.WEST};
+		for(ForgeDirection dir : dirs)
 		{
-			GL11.glDisable(GL11.GL_LIGHTING);
-			TEChip chip = (TEChip)te;
-			Tessellator tess = Tessellator.instance;
-			tess.setBrightness(16);
-			tess.setColorOpaque_F(1f, 1f, 1f);
-			ForgeDirection[] dirs = new ForgeDirection[]{ForgeDirection.NORTH, ForgeDirection.EAST, ForgeDirection.SOUTH, ForgeDirection.WEST};
-			for(ForgeDirection dir : dirs)
-			{
-				tess.startDrawingQuads();
-				drawRect(tess, -.0625, .126, -.5, .125, .375, chip.isPowered(dir) ? 2 : 0, 0, 2, 6);
-				tess.draw();
-				GL11.glRotated(-90, 0, 1, 0);
-			}
+			tess.startDrawingQuads();
+			drawRect(tess, -.0625, .126, -.5, .125, .375, powerMap.get(dir) ? 2 : 0, 0, 2, 6);
+			tess.draw();
+			GL11.glRotated(-90, 0, 1, 0);
 		}
 		GL11.glPopMatrix();
 	}
