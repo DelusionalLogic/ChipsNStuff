@@ -1,0 +1,16 @@
+[
+{
+  "modid": "chipsnstuff",
+  "name": "Chips n Stuff",
+  "description": "Silicon in minecraft!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DelusionalLogic"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

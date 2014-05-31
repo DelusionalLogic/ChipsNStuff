@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 13-05-14 14:17
+Description: Exception while updating neighbours
+
+java.lang.NullPointerException: Exception while updating neighbours
+	at dk.slashwin.chipsnstuff.tileentity.TEChip.setPower(TEChip.java:47)
+	at dk.slashwin.chipsnstuff.block.BChip.onNeighborBlockChange(BChip.java:41)
+	at net.minecraft.world.World.notifyBlockOfNeighborChange(World.java:771)
+	at net.minecraft.world.World.notifyBlocksOfNeighborChange(World.java:720)
+	at net.minecraft.world.World.notifyBlockChange(World.java:681)
+	at net.minecraft.world.World.setBlock(World.java:531)
+	at net.minecraft.world.World.setBlock(World.java:665)
+	at net.minecraft.item.ItemRedstone.onItemUse(ItemRedstone.java:70)
+	at net.minecraft.item.ItemStack.tryPlaceItemIntoWorld(ItemStack.java:144)
+	at net.minecraft.server.management.ItemInWorldManager.activateBlockOrUseItem(ItemInWorldManager.java:418)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:588)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:74)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:122)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:232)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:720)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:608)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:482)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:746)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at dk.slashwin.chipsnstuff.tileentity.TEChip.setPower(TEChip.java:47)
+	at dk.slashwin.chipsnstuff.block.BChip.onNeighborBlockChange(BChip.java:41)
+
+-- Block being updated --
+Details:
+	Source block type: ID #0 (tile.air // net.minecraft.block.BlockAir)
+	Block type: ID #166 (tile.chip // dk.slashwin.chipsnstuff.block.BChip)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (-833,56,359), Chunk: (at 15,3,7 in -53,22; contains blocks -848,0,352 to -833,255,367), Region: (-2,0; contains chunks -64,0 to -33,31, blocks -1024,0,0 to -513,255,511)
+Stacktrace:
+	at net.minecraft.world.World.notifyBlockOfNeighborChange(World.java:771)
+	at net.minecraft.world.World.notifyBlocksOfNeighborChange(World.java:720)
+	at net.minecraft.world.World.notifyBlockChange(World.java:681)
+	at net.minecraft.world.World.setBlock(World.java:531)
+	at net.minecraft.world.World.setBlock(World.java:665)
+	at net.minecraft.item.ItemRedstone.onItemUse(ItemRedstone.java:70)
+	at net.minecraft.item.ItemStack.tryPlaceItemIntoWorld(ItemStack.java:144)
+	at net.minecraft.server.management.ItemInWorldManager.activateBlockOrUseItem(ItemInWorldManager.java:418)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:588)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:74)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:122)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:232)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@69eb172d
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:720)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:608)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:482)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:746)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_40, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 768719328 bytes (733 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 93 (5208 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.03 FML v7.2.188.1074 Minecraft Forge 10.12.1.1074 4 mods loaded, 4 mods active
+	mcp{9.03} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{7.2.188.1074} [Forge Mod Loader] (forgeSrc-1.7.2-10.12.1.1074.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{10.12.1.1074} [Minecraft Forge] (forgeSrc-1.7.2-10.12.1.1074.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	chipsnstuff{1.0} [Chips n Stuff] (Forge) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 4 (224 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['ForgeDevName'/0, l='New World', x=-833,35, y=56,00, z=361,09]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

@@ -1,0 +1,82 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 19-05-14 00:23
+Description: Ticking memory connection
+
+java.lang.NullPointerException: Ticking memory connection
+	at dk.slashwin.chipsnstuff.circuit.Wafer.addPowerPad(Wafer.java:42)
+	at dk.slashwin.chipsnstuff.tileentity.TEChip.<init>(TEChip.java:35)
+	at dk.slashwin.chipsnstuff.block.BChip.createNewTileEntity(BChip.java:80)
+	at net.minecraft.block.Block.createTileEntity(Block.java:1764)
+	at net.minecraft.world.chunk.Chunk.func_150806_e(Chunk.java:938)
+	at net.minecraft.world.chunk.Chunk.func_150807_a(Chunk.java:723)
+	at net.minecraft.world.World.setBlock(World.java:517)
+	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:232)
+	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:116)
+	at net.minecraft.item.ItemStack.tryPlaceItemIntoWorld(ItemStack.java:144)
+	at net.minecraft.server.management.ItemInWorldManager.activateBlockOrUseItem(ItemInWorldManager.java:418)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:588)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:74)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:122)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:232)
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:720)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:608)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:482)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:746)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at dk.slashwin.chipsnstuff.circuit.Wafer.addPowerPad(Wafer.java:42)
+	at dk.slashwin.chipsnstuff.tileentity.TEChip.<init>(TEChip.java:35)
+	at dk.slashwin.chipsnstuff.block.BChip.createNewTileEntity(BChip.java:80)
+	at net.minecraft.block.Block.createTileEntity(Block.java:1764)
+	at net.minecraft.world.chunk.Chunk.func_150806_e(Chunk.java:938)
+	at net.minecraft.world.chunk.Chunk.func_150807_a(Chunk.java:723)
+	at net.minecraft.world.World.setBlock(World.java:517)
+	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:232)
+	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:116)
+	at net.minecraft.item.ItemStack.tryPlaceItemIntoWorld(ItemStack.java:144)
+	at net.minecraft.server.management.ItemInWorldManager.activateBlockOrUseItem(ItemInWorldManager.java:418)
+	at net.minecraft.network.NetHandlerPlayServer.processPlayerBlockPlacement(NetHandlerPlayServer.java:588)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:74)
+	at net.minecraft.network.play.client.C08PacketPlayerBlockPlacement.processPacket(C08PacketPlayerBlockPlacement.java:122)
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:232)
+
+-- Ticking connection --
+Details:
+	Connection: net.minecraft.network.NetworkManager@61612c7c
+Stacktrace:
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:720)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:608)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:482)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:746)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.2
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_40, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 752843864 bytes (717 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 1740 (97440 bytes; 0 MB) allocated, 1482 (82992 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.03 FML v7.2.188.1074 Minecraft Forge 10.12.1.1074 4 mods loaded, 4 mods active
+	mcp{9.03} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{7.2.188.1074} [Forge Mod Loader] (forgeSrc-1.7.2-10.12.1.1074.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{10.12.1.1074} [Minecraft Forge] (forgeSrc-1.7.2-10.12.1.1074.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	chipsnstuff{1.0} [Chips n Stuff] (Forge) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 256 (14336 bytes; 0 MB) allocated, 166 (9296 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['ForgeDevName'/80, l='New World', x=785,70, y=57,17, z=1418,43]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
