@@ -2,10 +2,11 @@ package dk.slashwin.chipsnstuff;
 
 import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
-import dk.slashwin.chipsnstuff.block.BChip;
 import dk.slashwin.chipsnstuff.circuit.*;
-import dk.slashwin.chipsnstuff.network.*;
 import dk.slashwin.chipsnstuff.tileentity.TEChip;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 public abstract class CommonProxy
@@ -28,10 +29,18 @@ public abstract class CommonProxy
 		NetworkRegistry.INSTANCE.registerGuiHandler(ChipsnStuff.instance, new GuiHandler());
 	}
 
+	public void registerRecipe()
+	{
+		ItemStack blackStack = new ItemStack(Blocks.stained_hardened_clay, 1, 15);
+		GameRegistry.addRecipe(new ItemStack(ThePlaceWithTheBlocks.bChip, 1),
+				"rbr",
+				"sss",
+				's', Blocks.stone,
+				'b', blackStack,
+				'r', Items.redstone);
+	}
+
 	public void registerTESR()
 	{
 	}
-
-	public abstract World getWorld(int dimId);
-	public abstract boolean isClient();
 }

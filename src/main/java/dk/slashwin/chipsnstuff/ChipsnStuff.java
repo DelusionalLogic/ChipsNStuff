@@ -12,9 +12,7 @@ import net.minecraft.stats.Achievement;
 @Mod(modid = ChipsnStuff.MOD_ID, version = ChipsnStuff.VERSION)
 public class ChipsnStuff
 {
-	private static Achievement ach;
-
-    public static final String MOD_ID = "chipsnstuff";
+	public static final String MOD_ID = "chipsnstuff";
     public static final String VERSION = "0.1";
 
 	@Mod.Instance(ChipsnStuff.MOD_ID)
@@ -30,6 +28,7 @@ public class ChipsnStuff
 		proxy.registerBlocks();
 		proxy.registerGUI();
 		proxy.registerTESR();
+		proxy.registerRecipe();
 	}
 
 	@EventHandler
