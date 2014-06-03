@@ -7,10 +7,13 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import dk.slashwin.chipsnstuff.network.PacketHandler;
+import net.minecraft.stats.Achievement;
 
 @Mod(modid = ChipsnStuff.MOD_ID, version = ChipsnStuff.VERSION)
 public class ChipsnStuff
 {
+	private static Achievement ach;
+
     public static final String MOD_ID = "chipsnstuff";
     public static final String VERSION = "0.1";
 

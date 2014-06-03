@@ -11,6 +11,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
@@ -23,6 +24,7 @@ public class BChip extends Block implements ITileEntityProvider
 		setBlockName("chip");
 		setCreativeTab(CreativeTabs.tabRedstone);
 		this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 0.125F, 1.0F);
+		setBlockTextureName("chipsnstuff:chip");
 	}
 
 	@Override
